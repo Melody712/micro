@@ -9,6 +9,7 @@ public class HelloAction {
 	@ResponseBody
 	@RequestMapping("/") 
 	public String info() {
+		System.out.println(10 / 0);
 		return "www.mldn.cn" ;
 	}
 }

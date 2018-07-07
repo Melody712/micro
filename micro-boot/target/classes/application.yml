@@ -6,6 +6,12 @@ spring:
   profiles: dev
   messages:
     basename: i18n/Message
+  thymeleaf:
+    servlet:
+      content-type: text/html 
+    cache: false 
+    mode: LEGACYHTML5
+
 server: 
   port: 80
 ---
